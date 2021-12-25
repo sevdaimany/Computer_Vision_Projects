@@ -12,6 +12,18 @@ body.
 
 
 
+## Face Recognition
+Using OpenCV and dlib inbuilt functions to recognize faces. The code uses  Dlib frontal face 
+detector to identify facial features. LBPH Face Recognizer is used to recognize differences 
+between faces. LBPH (Local Binary Patterns Histogram) algorithm is used to identify faces.
+and dlib face recognition resnet model v1 is used to recognize differences between faces with 
+higher accuracy than LBPH algorithm.
+
+![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/screenshots/face_recognition_1.png)
+
+![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/screenshots/face_recognition_2.png)
+
+
 
 ### Install
 
