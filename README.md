@@ -24,6 +24,16 @@ higher accuracy than LBPH algorithm.
 ![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/screenshots/face_recognition_2.png)
 
 
+## Object Tracking
+
+Implementing object tracker using KCF and CSRT trackers from OpenCV.
+Amongst all the tracking methods available KCF and CSRT are the most accurate considering all 
+the pros and cons. KCF is very fast when it comes to processing the video while the CSRT is a 
+bit slow but the tracking of the object is precise.
+
+
+![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/screenshots/object_tracking.png)
+
 
 ### Install
 
