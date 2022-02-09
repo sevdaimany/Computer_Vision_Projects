@@ -35,6 +35,24 @@ bit slow but the tracking of the object is precise.
 ![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/screenshots/object_tracking.png)
 
 
+
+## Face Swapping
+
+In this project, first, the landmarks of both faces are given by the user, so that from them we can find the external boundaries of the face. Be careful that the order of landmarks in both faces should 
+be the same. Then save landmark points in a JSON file.
+In the second part, split the face into triangles using Delaunay Triangulation.
+split both the faces into triangles and then we swap the triangles in the correspondent region.
+
+![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/face_swapping/Screenshot2.png)
+
+![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/face_swapping/Screenshot1.png)
+
+![github-octocat](https://github.com/sevdaimany/Computer_Vision_Projects/blob/master/face_swapping/result.png)
+
+
+
+
+
 ### Install
 
 This project files requires **Python 3** and the following Python 
@@ -58,4 +76,3 @@ linux:
 [Mac](https://www.learnopencv.com/install-dlib-on-macos/) | 
 [Windows](https://www.learnopencv.com/install-dlib-on-windows/) | 
 [Ubuntu](https://www.pyimagesearch.com/2017/03/27/how-to-install-dlib/)
-
